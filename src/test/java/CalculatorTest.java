@@ -22,4 +22,13 @@ public class CalculatorTest {
         Assert.assertEquals(expectResult,actualResult);
     }
 
+    @Test
+    public  void shouldReturn4When2Sub2() throws IllegalAccessException, ClassNotFoundException, InstantiationException {
+        Calculator calculator = new Calculator();
+        int actualResult = calculator.compute(2,2,"Multi");
+        int expectResult = 4;
+        Assert.assertEquals(expectResult,actualResult);
+    }
+
+
 }
