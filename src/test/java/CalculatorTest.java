@@ -10,6 +10,7 @@ public class CalculatorTest {
         int actualResult = calculator.compute(1,1,'+');
         int expectResult = 2;
         Assert.assertEquals(expectResult,actualResult);
+        Calculator calculator1 = new Calculator();
 
     }
 
